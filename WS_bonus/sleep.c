@@ -7,10 +7,13 @@ main(int argc, char *argv[])
 {
     if(argc < 2){
         printf("usage: sleep <ticks>\n");
+        
         exit(1);
     }
 
     int ticks = atoi(argv[1]);
+    
     sleep(ticks);
+    
     exit(0);
 }
