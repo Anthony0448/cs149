@@ -1,0 +1,17 @@
+ 1008  mkdir WS1 && cd WS1
+ 1009  pwd
+ 1010  cd ~
+ 1011  cd desktop
+ 1012  cd cs149
+ 1013  ls -latr
+ 1014  git init
+ 1015  git remote add origin git@github.com:Anthony0448/cs149.git
+ 1016  git config
+ 1017  git config --global user.email
+ 1018  git config --global user.name
+ 1019  mkdir WS_bonus
+ 1020  cd WS_bonus
+ 1021  git add .
+ 1022  curl -OL https://tinyurl.com/yy94jltt
+ 1023  mv yy94jltt out.pdf
+ 1024  ls -latr
