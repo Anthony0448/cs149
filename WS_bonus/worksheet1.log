@@ -1,0 +1,47 @@
+ 1008  mkdir WS1 && cd WS1
+ 1009  pwd
+ 1010  cd ~
+ 1011  cd desktop
+ 1012  cd cs149
+ 1013  ls -latr
+ 1014  git init
+ 1015  git remote add origin git@github.com:Anthony0448/cs149.git
+ 1016  git config
+ 1017  git config --global user.email
+ 1018  git config --global user.name
+ 1019  mkdir WS_bonus
+ 1020  cd WS_bonus
+ 1021  git add .
+ 1022  curl -OL https://tinyurl.com/yy94jltt
+ 1023  mv yy94jltt out.pdf
+ 1024  ls -latr
+ 1025  history 20 > cmds.log
+ 1026  git add cmds.log *.c
+ 1027  git add cmds.log *.c
+ 1028  git add cmds.log *.c
+ 1029  git commit -m "First commit" -a
+ 1030  git branch
+ 1031  git push -u origin main
+ 1032  git status
+ 1033  git logo
+ 1034  git push
+ 1035  git push --set-upstream origin master
+ 1036  git push
+ 1037  git add .
+ 1038  git push
+ 1039  git status
+ 1040  git add ..
+ 1041  git add ..
+ 1042  git push
+ 1043  brew tap riscv/riscv
+ 1044  brew install riscv-tools
+ 1045  brew install qemu
+ 1046  qemu-system-riscv64 --version
+ 1047  cd ~
+ 1048  git clone git://g.csail.mit.edu/xv6-labs-2023
+ 1049  $ cd xv6-labs-2023
+ 1050  cd xv6-labs-2023
+ 1051  make qemu
+ 1052  ls
+ 1053  make qemu
+ 1056  history > ~/desktop/cs149/WS_bonus/worksheet1.log
